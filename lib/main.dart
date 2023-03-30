@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_news_app/screens/screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
+      initialRoute: '/',
+
+      routes: {
+        HomeScreen.routeName: (context) => const HomeScreen(),
+        ArticleScreen.routeName: (context) => const ArticleScreen(),
+        DiscoverScreen.routeName: (context) => const DiscoverScreen(),
+      },
     );
   }
 }

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-class ArticleScreen extends StatelessWidget {
-  const ArticleScreen({super.key});
+class DiscoverScreen extends StatelessWidget {
+  const DiscoverScreen({super.key});
 
+  static const routeName = '/discover';
   @override
   Widget build(BuildContext context) {
     return Scaffold();
