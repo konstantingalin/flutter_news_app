@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_news_app/screens/home_screen.dart';
 import 'package:flutter_news_app/screens/screens.dart';
 
 class BottomNavBar extends StatelessWidget {
