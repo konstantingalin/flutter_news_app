@@ -19,6 +19,7 @@ class BottomNavBar extends StatelessWidget {
     items: [
       BottomNavigationBarItem(
         icon: Container(
+          height: 48,
           margin: const EdgeInsets.only(left: 50),
           child: IconButton(
             onPressed: (){
@@ -40,6 +41,7 @@ class BottomNavBar extends StatelessWidget {
       ),
       BottomNavigationBarItem(
         icon: Container(
+          height: 48,
           margin: const EdgeInsets.only(right: 50),
           child: IconButton(
             onPressed: (){
